@@ -483,6 +483,26 @@ progress {
     padding-right: var(--bs-gutter-x, 1.25rem);
     width: 100%;
 }
+
+@media (max-width: 768px) {
+  h1.display-1.fw-bold {
+    font-size: 1.8em!important;
+  }
+
+  ul {
+    padding: 0px 65px!important;
+  }
+
+  .card-solution {
+      border: 0px solid transparent!important;
+  }
+
+  .col-12.col-md-4 {
+    height: auto!important;
+  }
+
+}
+
 @media (min-width: 576px) {
     .container,
     .container-sm {
